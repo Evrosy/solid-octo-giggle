@@ -1,5 +1,5 @@
 # solid-octo-giggle
-Projekt turnieju axelroda z wykorzytsaniem reacta 
+Projekt turnieju axelroda z wykorzystaniem reacta 
 
 # Opis Projektu zrealizowanego na Projketowanie aplkacji internetowych
 
