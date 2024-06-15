@@ -63,7 +63,7 @@ Aby zainstalować projekt lokalnie, wykonaj następujące kroki:
 
 1. Sklonuj repozytorium:
 ```
-git clone <URL_REPOZYTORIUM>
+git clone <https://github.com/Evrosy/solid-octo-giggle.git>
 ```
 2. Przejdź do katalogu projektu:
 
