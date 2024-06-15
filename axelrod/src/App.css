@@ -1,0 +1,170 @@
+/*
+Paleta kolorów: 
+HEX: #fff2df
+
+HEX: #d9ad7c
+
+HEX: #a2836e
+
+HEX: #674d3c
+*/
+
+body {
+  text-align: center;
+  background-color: #a2836e;
+  margin: 0;
+  padding: 0;
+  font-family: "Jaini", system-ui;
+  font-style: normal;
+  font-size: 1.3em;
+  letter-spacing: 1px;
+  transition: ease-out 0.3s;
+}
+
+h1 {
+  background-color: #d9ad7c;
+  width: 70%;
+  margin-top: 0;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 60px;
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 800;
+}
+
+p {
+  font-weight: 380;
+}
+
+i {
+  font-weight: 300;
+}
+
+#Zawartosc {
+  margin-top: 0;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: auto;
+  background-color: #fff2df;
+  width: 54%;
+  height: 100%;
+  padding: 8%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+
+
+div#Przyciski button {
+  background-color: #d9ad7c;
+  font-family: "Jaini", system-ui;
+  font-style: normal;
+  font-size: 1em;
+  color: #674d3c;
+  margin: 5px;
+  width: 15em;
+  height: 2em;
+  transition: ease-out 0.3s;
+}
+
+div#Przyciski button:hover {
+  background-color: #cb904d;
+  color: #674d3c;
+  letter-spacing: 2px;
+  transition: ease-out 0.4s;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+visibility: hidden;
+width: 250px;
+background-color: #674d3c;
+color: #fff2df;
+text-align: center;
+border-radius: 6px;
+padding: 6px;
+opacity: 0;
+transition: opacity 0.5s;
+transition: all 0.2s ease-out;
+position: absolute;
+z-index: 1;
+bottom: 100%;
+left: 10%;
+margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+visibility: visible;
+opacity: 1;
+}
+
+#Info {
+  display: none;
+}
+
+
+#Wyniki {
+  display: none;
+  padding-top: 2%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: auto;
+  background-color: #fff2df;
+  width: 66%;
+  height: 100%;
+  padding: 2%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+table {
+  width: 100%;
+  background-color: #d9ad7c;
+  color: #674d3c;
+  margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+  border-radius: 10px;
+  border-spacing: 15px;
+}
+
+tr, td {
+  border: none;
+}
+
+td {
+  width: 4em;
+}
+
+.Pusto {
+  border: none;
+}
+
+@media only screen and (max-width:800px) {
+  h1 {
+      width: 100%;
+  }
+  #Zawartosc {
+      width: 84%;
+  }
+
+  #Wyniki {
+      width: 96%;
+  }
+
+  table {
+    width: 90%;
+  }
+}
