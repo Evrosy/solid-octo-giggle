@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+  
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jaini&display=swap" rel="stylesheet">
+   
+    <title>Axelrod</title>
+
+  </head>
+  <body>
+    <h1>Problem Axelroda</h1>
+    <div id="Zawartosc">
+    
+    <h2>Na czym polega problem?</h2>
+    <p>Dwie osoby Irek i Arek są podjerzane o udział w napadzie. Każdemu z nich prokurator proponuje umowę<br>
+        <i>"Jeśli przedstawisz nam dowody na tego drugiego, to zwolnimy Cię z odbywania kary, a ten drugi pójdzie siedzieć"</i>
+        <br>W zależności od tego co zrobią tyle przesiedzą w wiezieniu.</p>
+    
+    <div id="Lata">
+        <table style="width: 80%;">
+            <tr>
+                <td ></td>
+                <td colspan="3" style="letter-spacing: 4px;"><b>IREK</b></td>
+            </tr>
+            <tr>
+                <td rowspan="3" style="letter-spacing: 4px;"><b>AREK</b></td>
+                <td></td>
+                <td>Milczy</td>
+                <td>Donosi</td>
+            </tr>
+            <tr>
+                <td>Milczy</td>
+                <td>3 &#10745 3</td>
+                <td>10 &#10745 0</td>
+            </tr>
+            <tr>
+                <td>Donosi</td>
+                <td>0 &#10745 10</td>
+                <td>7 &#10745 7 </td>
+            </tr> 
+        </table>
+        <div style="float: right;"> <sup>*Podana ilość w latach</sup></div>
+    </div>
+    <div style="clear: both;"></div>
+    <p>Kiedy zachodzi do takiej pojedynczej sytuacji są tylko 4 rozwiązania. Oboję donoszą na siebie lub przeciwnie oboje tego nie robią.
+        Ostatnią opcją jest gdy tylko jeden z nich donosi a drugi pozostaje fair i odwrotnie. <br></p>
+        <p>Ciekawiej się robi kiedy ten sam problem spotyka ich <b>1000</b> razy</p>
+    <h3>Przetestuj kilka strategi, w jaki można rozwiązać ten problem</h3>
+    
+    <div id="root">
+    <div id="Przyciski" >
+        
+    </div>
+</div>
+
+<div id="Wyniki">
+   
+    <i style="font-size: smaller;"><sup>*Niżej znajdują się szczegóły strategi*</sup></i>
+    <p id="Info"></p><br>
+</div>
+</div>
+  </body>
+</html>
